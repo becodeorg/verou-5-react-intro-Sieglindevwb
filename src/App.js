@@ -1,11 +1,13 @@
 import './style.css';
+import Header from './Header.js';
 
-const name = 'Peter';
+const name = 'Sezin';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, {name}</h1>;
+      <Header />
+      <h1>Hello, {name}</h1>
     </div>
   );
 }
