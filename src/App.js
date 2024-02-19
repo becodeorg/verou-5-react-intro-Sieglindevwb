@@ -1,13 +1,12 @@
 import './style.css';
 import Header from './Header.js';
-
-const name = 'Sezin';
+import Input from './Input.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hello, {name}</h1>
+      <Input />
     </div>
   );
 }
