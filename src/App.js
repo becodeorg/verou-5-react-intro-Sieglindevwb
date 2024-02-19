@@ -1,12 +1,14 @@
 import './style.css';
 import Header from './Header.js';
-import Input from './Input.js';
+import Form from './Form.js';
+import ToDoList from './ToDoList.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Input />
+      <Form />
+      <ToDoList />
     </div>
   );
 }
