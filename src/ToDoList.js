@@ -4,7 +4,7 @@ const ToDos = ['Laundry', 'Clean kitchen'];
 
 function ToDoList() {
   return (
-    <div>
+    <div className="mb-6">
       <h2>To do list:</h2>
       <ul>
         {ToDos.map((ToDo, index) => (
