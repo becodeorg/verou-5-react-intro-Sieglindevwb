@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Form() {
+function Form({ handleAddTodo, todoNameRef }) {
   return (
     <div className="Body">
-      <input type="text" value="Type here"></input>
+      <input ref={todoNameRef} type="text"></input>
       <br></br>
-      <button type="submit">Submit</button>
+      <button onClick={handleAddTodo}>Submit</button>
     </div>
   );
 }

@@ -1,10 +1,8 @@
 import React from 'react';
 
-const ToDos = ['Laundry', 'Clean kitchen'];
-
-function ToDoList() {
+function ToDoList({ ToDos }) {
   return (
-    <div className="mb-6">
+    <div>
       <h2>To do list:</h2>
       <ul>
         {ToDos.map((ToDo, index) => (
